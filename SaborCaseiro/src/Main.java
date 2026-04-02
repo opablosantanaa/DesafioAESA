@@ -4,9 +4,7 @@ public class Main {
         Pedido p2 = new Pedido("Filé", 100, 1);
         Pedido p3 = new Pedido("Nugget", 6, 8);
         ContaRestaurante conta1 = new ContaRestaurante();
-        Cliente c1 = new Cliente();
-        c1.nome = "Ana Julia";
-        c1.mesa = 3;
+        Cliente c1 = new Cliente("Ana Julia", 3);
         conta1.cliente = c1;
         conta1.pedido1 = p1;
         conta1.pedido2 = p2;
