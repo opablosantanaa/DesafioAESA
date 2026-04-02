@@ -4,6 +4,11 @@ public class Cliente {
     String nomemaiusculo;
     int mesa;
 
+    Cliente(String nome, int mesa){
+        this.nome = nome;
+        this.mesa = mesa;
+    }
+    
     void getPrimeiroNome(){
         primeironome = this.nome.split(" ")[0];
     }
